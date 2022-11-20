@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+.mono {
+  font-family: 'Space Mono', monospace;
+  font-weight: 800;
+}
