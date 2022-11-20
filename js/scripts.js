@@ -5,3 +5,4 @@ function numberListFunc(number) {
   }
   return numArray;
 };
+const numReplace = numArray.map()
