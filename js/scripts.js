@@ -8,6 +8,8 @@ function numberListFunc(number) {
       return "Beep!";
     } else if (number.toString().includes("2")) {
       return "Boop!";
+    } else if (number.toString().includes("3")){
+      return "Won't you be my neighbor?";
     } else {
       return number;
     }
