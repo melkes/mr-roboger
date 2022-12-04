@@ -15,3 +15,13 @@ function numberListFunc(number) {
     }
   });
 }
+
+// UI logic
+
+document.querySelector("form#user-number").onsubmit = function (event) {
+  event.preventDefault();
+  let userNum = document.getElementById("user-number").value;
+
+  document.getElementById("output").innerText = userNum;
+};
+
