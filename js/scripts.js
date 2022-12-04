@@ -1,6 +1,6 @@
 function numberListFunc(number) {
   let numArray = [];
-  for (let i = 0; i <= number; i++) {
+  for (let i = 0; i <=number; i++){
     numArray.push(i);
   }
   return numArray.map(function (number) {
