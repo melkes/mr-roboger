@@ -21,7 +21,7 @@
 
 ## Roadmap
 ### Needed improvements:
-* UI logic does not work.
+* 
 
 ---
 ## License
