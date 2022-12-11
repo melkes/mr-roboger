@@ -9,6 +9,7 @@ The form returns a list of values from 0 to the user's inputted number:
 * If the number has a 2 (and no 1), it is replaced with **"Boop!"**.
 * If the number has a 3 (and no 2 or 1), it is replaced with **"Won't you be my neighbor?"**. 
 
+#### This project is also viewable on [Github Pages](https://melkes.github.io/mr-roboger/)
 ---
 
 ## Technologies Used
