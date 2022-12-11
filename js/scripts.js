@@ -21,11 +21,12 @@ window.addEventListener("load", function() {
   let form = document.querySelector("form");
 
   form.addEventListener("submit", function(event) {
-    const numOutput = document.getElementById("user-number").value;
-  
-    document.querySelector("span#output").innerText = numOutput;
+    let numOutput = document.getElementById("user-number").value;
+    let numOutputR = numberListFunc(numOutput);
+    document.querySelector("span#output").innerText = numOutputR;
 
     event.preventDefault();
+
   });
 
 });
