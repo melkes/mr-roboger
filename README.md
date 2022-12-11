@@ -2,7 +2,12 @@
 
 ## By Mike Wilkes
 
-#### _A web form that treats some digits like bad words and changes them to friendly words._
+#### A web form that treats some digits like bad words and changes them to friendly words.
+The form returns a list of values from 0 to the user's inputted number:
+* Numbers without a 1, 2, or 3 digit are unchanged. 
+* If the number has a 1, it is replaced with **"Beep!"**.
+* If the number has a 2 (and no 1), it is replaced with **"Boop!"**.
+* If the number has a 3 (and no 2 or 1), it is replaced with **"Won't you be my neighbor?"**. 
 
 ---
 
@@ -17,12 +22,10 @@
 
 * Clone this repo and open index.html
 
-## Known bugs
-
 ## Roadmap
-### Needed improvements:
-* 
-
+### Potential improvements:
+* A more interesting UI (images, styling)
+* Additional features (decending list, form field for users' names to customize `"Won't you be my neighbor, [name]?"`
 ---
 ## License
 
